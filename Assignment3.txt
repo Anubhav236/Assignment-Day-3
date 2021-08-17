@@ -1,0 +1,17 @@
+import java.util.Scanner;
+import java,util.Scanner;
+class cab{
+    int fare;
+    int d;
+}
+ 
+ class Ridecab{
+     public static void main(String[] args){
+         cab ob = new cab();
+         Scanner sc = new Scanner(System.in);
+         System.out.print("enter the distance travelled: ");
+         ob.d =sc.nextInt();
+         ob.fare = 10*ob.d;
+         System.out.print("total fare: " + ob.fare);
+     }
+ }
